@@ -1,0 +1,38 @@
+.fp{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* z-index: 1; */
+}
+.fpItem{
+    position: relative;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.fpImg{
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.fpCity{
+    font-weight: 300;
+    font-weight: 500;
+}
+
+.fpRating>button{
+    background-color: rgb(75, 104, 231);
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fpRating{
+    font-size: 14px;
+}

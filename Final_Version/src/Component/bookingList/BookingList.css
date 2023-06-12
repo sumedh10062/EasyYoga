@@ -1,0 +1,35 @@
+.booking-list {
+    margin: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .booking-property-name {
+    font-weight: bold;
+  }
+  
+  .booking-price {
+    font-weight: bold;
+  }
+  
+  .booking {
+    transition: background-color 0.2s ease;
+  }
+  
+  .booking:hover {
+    background-color: #f9f9f9;
+  }
+  
